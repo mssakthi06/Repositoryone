@@ -1,0 +1,15 @@
+diff --git a/JavaProjectTwo/src/TestDemo.java b/JavaProjectTwo/src/TestDemo.java
+new file mode 100644
+index 0000000..3870e23
+--- /dev/null
++++ b/JavaProjectTwo/src/TestDemo.java
+@@ -0,0 +1,9 @@
++
++public class TestDemo {
++
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++		System.out.println("Test Demo");
++	}
++
++}

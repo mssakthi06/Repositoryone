@@ -1,0 +1,33 @@
+diff --git a/JavaProjectTwo/src/Demo/SampleTest.java b/JavaProjectTwo/src/Demo/SampleTest.java
+new file mode 100644
+index 0000000..142aae3
+--- /dev/null
++++ b/JavaProjectTwo/src/Demo/SampleTest.java
+@@ -0,0 +1,10 @@
++package Demo;
++
++public class SampleTest {
++
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++
++	}
++
++}
+diff --git a/JavaProjectTwo/src/Demo/TestDemo.java b/JavaProjectTwo/src/Demo/TestDemo.java
+index 3870e23..b9a43d6 100644
+--- a/JavaProjectTwo/src/Demo/TestDemo.java
++++ b/JavaProjectTwo/src/Demo/TestDemo.java
+@@ -1,9 +1,12 @@
++package Demo;
+ 
+ public class TestDemo {
+ 
+ 	public static void main(String[] args) {
+ 		// TODO Auto-generated method stub
+ 		System.out.println("Test Demo");
++		System.out.println("Patch one");
++		System.out.println("Patch Two");
+ 	}
+ 
+ }
