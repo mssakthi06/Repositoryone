@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.362011">
+<testcase classname="OMNI Customer Creation" name="Personal Customer Creation" time="26.362011">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MA&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WN-OHA00SA4L897', ip: '10.139.66.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)&#13;&#10;&#9;at com.usbank.etm_abdd_omniui_page_object.CreateCustomerProfile.enterMandatoryfields(CreateCustomerProfile.java:45)&#13;&#10;&#9;at com.usbank.etm_abdd_omniui_step_definitions.IndividualCustomerCreation.provide_mandatory_fields_and_and_on_the_customer_creation_page(IndividualCustomerCreation.java:37)&#13;&#10;&#9;at ✽.Then Provide mandatory fields &quot;&lt;LastName&gt;&quot; and &quot;45202&quot; and &quot;MA&quot;on the customer creation page(src/main/resource/com/usbank/etm_abdd_omniui_features/CustomerCreation.feature:6)&#13;&#10;"><![CDATA[Given user should be on OMNI UAT UI page....................................passed
+Then Click on the Create Customer Button....................................passed
+Then Provide mandatory fields "<LastName>" and "45202" and "MA"on the customer creation page.failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MA
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WN-OHA00SA4L897', ip: '10.139.66.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.usbank.etm_abdd_omniui_page_object.CreateCustomerProfile.enterMandatoryfields(CreateCustomerProfile.java:45)
+	at com.usbank.etm_abdd_omniui_step_definitions.IndividualCustomerCreation.provide_mandatory_fields_and_and_on_the_customer_creation_page(IndividualCustomerCreation.java:37)
+	at ✽.Then Provide mandatory fields "<LastName>" and "45202" and "MA"on the customer creation page(src/main/resource/com/usbank/etm_abdd_omniui_features/CustomerCreation.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
